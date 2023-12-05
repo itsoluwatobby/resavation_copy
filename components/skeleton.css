@@ -1,0 +1,63 @@
+
+.skeleton{
+  background-color: rgb(181, 181, 181);
+  margin: 0.75rem 0;
+  border-radius: 0.25rem;
+}
+
+.skeleton.title{
+  height: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.skeleton.title-plain{
+  height: 10px;
+  margin-bottom: -0.2rem;
+}
+
+.skeleton.text-plain{
+  height: 10px;
+  margin-top: -0.2rem;
+}
+
+.skeleton.text{
+  height: 0.75rem;
+}
+
+.skeleton.width-100{
+  width: 100%;
+}
+
+.skeleton.width-50{
+  width: 50%;
+}
+
+.skeleton.width-65{
+  width: 65%;
+}
+
+.skeleton.width-10{
+  width: 10%;
+}
+
+.skeleton.profile-circle{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.skeleton.profile-circle-min{
+  width: 15px;
+  height: 15px;
+  border-radius: 35%;
+}
+
+@keyframes skeleton_pulse {
+  50%{
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse{
+  animation: skeleton_pulse 2s cubic-bezier(0.4, 0, 0.6, 1) finite;
+}
